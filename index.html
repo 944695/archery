@@ -7,29 +7,39 @@
     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
 </head>
 <body>
+    <a href="#main-content" class="hidden">Skip to main content</a>
     <header class="main-header">
         <div>
-            <img src="images/archeryAcademy-logo-white.png" alt="White Company Logo" class="logo">
+            <img src="images/archeryAcademy-logo-white.png" alt="Straight to the Point Archery logo" class="logo">
         </div>
         <div class="header-text">
             <h1>Straight to the Point Archery</h1>
         </div>
     </header>
+    <nav class="primary-nav" aria-label="Primary">
+        <ul>
+            <li><a href="index.html" aria-current="page">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="instructors.html">Instructors</a></li>
+            <li><a href="nondiscriminatory-policy.html">Nondiscriminatory Policy</a></li>
+        </ul>
+    </nav>
     <br>
-    <h1 class="text-box"><a href="about.html">About</a></h1>
-    <br>
-    <br>
-    <h1 class="text-box"><a href="services.html">Services</a></h1>
-    <br>
-    <br>
-    <h1 class="text-box"><a href="instructors.html">Instructors</a></h1>
-    <br>
-    <br>
-    <h1 class="text-box"><a href="nondiscriminatory-policy.html">Nondiscriminatory Policy</a></h1>
-    <br>
-    <br>
+    <main id="main-content" class="container home-grid">
+    <div class="video-container">
+        <video controls class="video-box">
+            <source src="videos/archery-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+        <section class="video-transcript" aria-labelledby="video-transcript-heading">
+                <h2 id="video-transcript-heading">Video Transcript</h2>
+                <p>This video introduces Straight to the Point Archery and shows an person practicing archery techniques.</p>
+        </section>
+    </main>   
 <footer>
-  <img src="images/footerImage.jpg" alt="Footer Image" class="footer-img">
+    <img src="images/footerImage.jpg" alt="" class="footer-img">
   <p class="copyright-text">  &copy; 2026 Archery Academy &nbsp;|&nbsp; Seattle, WA</p>
 </footer>
 </body>

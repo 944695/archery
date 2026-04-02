@@ -7,18 +7,29 @@
     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
 </head>
 <body>
+    <a href="#main-content" class="hidden">Skip to main content</a>
     <header class="main-header">
         <div>
-            <img src="images/archeryAcademy-logo-white.png" alt="White Company Logo" class="logo">
+            <img src="images/archeryAcademy-logo-white.png" alt="Straight to the Point Archery logo" class="logo">
         </div>
         <div class="header-text">
             <h1>Straight to the Point Archery</h1>
         </div>
     </header>
-    <main>
+    <nav class="primary-nav" aria-label="Primary">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="instructors.html" aria-current="page">Instructors</a></li>
+            <li><a href="nondiscriminatory-policy.html">Nondiscriminatory Policy</a></li>
+        </ul>
+    </nav>
+    <main id="main-content" class="container">
     <h1>Instructors</h1>
     <article class="profile-box">
-        <img src="images/instructor-bio-image1.png" alt="Profile Picture 1" class="profile-img">
+        <h2 class="visually-hidden">Instructor profile: Derek Jenkins</h2>
+        <img src="images/instructor-bio-image1.png" alt="A grayscale, circular instructor profile photo of Derek Jenkins. He has short, wavy hair and a friendly smile. He is wearing a zip-up sweater." class="profile-img">
         <section class="profile-box-text"><h2 class="white-text">Derek Jenkins</h2>
             <br>
             <p class="yellow-text">CERTIFICATION:</p>
@@ -28,12 +39,14 @@
             <p class="responsive-line yellow-text"></p>
             <p class="call-outs-and-quotes white-text">"My biggest goal is to see archery grow and help its participants grow with it."</p>
         </section>
-        <section class="profile-box-bio-wrap">
+        <div class="profile-box-bio-wrap">
+            <h3 class="visually-hidden">Derek Jenkins biography</h3>
             <p class="profile-box-bio">Derek is a Washington native and an experienced outdoorsman with many years hunting, fishing, skiing, canoeing, archery, shooting and minimalistic camping. His skillful mastery of bushcraft and wilderness survival knowledge helps define his character. He enjoys handcrafting his own long bows, flint knapped primitive arrows and making custom leather products.</p>
-        </section>
+        </div>
     </article>
     <article class="profile-box">
-        <img src="images/instructor-bio-image2.png" alt="Profile Picture 2" class="profile-img">
+        <h2 class="visually-hidden">Instructor profile: Amy Smith</h2>
+        <img src="images/instructor-bio-image2.png" alt="A grayscale, circular instructor profile photo of Amy Smith. She has short hair, glasses, and is smiling. She is wearing a shirt with a blazer." class="profile-img">
         <section class="profile-box-text"><h2 class="white-text">Amy Smith</h2>
             <br>
             <p class="yellow-text">CERTIFICATION:</p>
@@ -43,12 +56,14 @@
             <p class="responsive-line yellow-text"></p>
             <p class="call-outs-and-quotes white-text">"Being able to see my students improve and gain confidence in their skills is incredibly rewarding. I love helping them achieve their goals."</p>
         </section>
-        <section class="profile-box-bio-wrap">
+        <div class="profile-box-bio-wrap">
+            <h3 class="visually-hidden">Amy Smith biography</h3>
             <p class="profile-box-bio">Amy truly has a passion for archery. She comes from a long line of hunters, fisherman, and trappers of Canada. Amy places a strong emphasis on safety and is enthusiastic about teaching. Amy also loves fitness, and has been a YMCA group exercise and personal trainer for over 18 years.</p>
-        </section>
+        </div>
     </article>
     <article class="profile-box">
-        <img src="images/instructor-bio-image3.png" alt="Profile Picture 3" class="profile-img">
+        <h2 class="visually-hidden">Instructor profile: Nathan Lee</h2>
+        <img src="images/instructor-bio-image3.png" alt="A grayscale, circular instructor profile photo of Nathan Lee. He has short hair and a confident smile. He is wearing a button-up shirt." class="profile-img">
         <section class="profile-box-text"><h2 class="white-text">Nathan Lee</h2>
             <br>
             <p class="yellow-text">CERTIFICATION:</p>
@@ -58,13 +73,14 @@
             <p class="responsive-line yellow-text"></p>
             <p class="call-outs-and-quotes white-text">"I love archery and teaching it to others. I hope to inspire the next generation of archers."</p>
         </section>
-        <section class="profile-box-bio-wrap">
+        <div class="profile-box-bio-wrap">
+            <h3 class="visually-hidden">Nathan Lee biography</h3>
             <p class="profile-box-bio">Nathan is an USA Archery Certified Level 3 NTS – Coach and has been teaching archery since 2009. He has been interested in archery since he nocked his first arrow while a Boy Scout at Scout camp. Nathan has many years of experience teaching people of all ages, experience gained as a Martial Arts Instructor and Studio Manager.</p>
-        </section>
+        </div>
     </article>
     </main>
 <footer>
-  <img src="images/footerImage.jpg" alt="Footer Image" class="footer-img">
+        <img src="images/footerImage.jpg" alt="" class="footer-img">
   <p class="copyright-text">  &copy; 2026 Archery Academy &nbsp;|&nbsp; Seattle, WA</p>
 </footer>
 </body>
